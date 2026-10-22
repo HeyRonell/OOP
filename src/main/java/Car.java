@@ -1,0 +1,21 @@
+import java.time.LocalDate;
+
+public class Car {
+        //      CARINFORMATION
+        String brand;
+        String model;
+        int buildYear;
+        String vin;
+        String color;
+
+        // METHOD TO DISPLAY CAR INFORMATION
+        void displayInfo() {
+            System.out.println("Brand: " + brand);
+            System.out.println("Model: " + model);
+            System.out.println("Build Year: " + buildYear);
+            System.out.println("VIN: " + vin);
+            System.out.println("Color: " + color);
+            System.out.println("--------------------");
+        }
+    }
+
